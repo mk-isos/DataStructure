@@ -77,9 +77,7 @@ int main()
     printf("Enter the number of rows and columns of matrix B: ");
     scanf("%d %d", &b_rows, &b_cols);           // 행렬 B의 크기 입력 받음
 
-    if (a_cols != b_rows) {
-        printf("Error: Matrix A and B cannot be multiplied.\n");
-        return 0;
+    
     }
 
     int** a = allocate_matrix(a_rows, a_cols);      // 행렬 A 동적 메모리 할당
