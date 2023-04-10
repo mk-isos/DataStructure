@@ -78,11 +78,10 @@ int main()
     scanf("%d %d", &b_rows, &b_cols);           // 행렬 B의 크기 입력 받음
 
     
-    }
 
     int** a = allocate_matrix(a_rows, a_cols);      // 행렬 A 동적 메모리 할당
     int** b = allocate_matrix(b_rows, b_cols);      // 행렬 B 동적 메모리 할당
-    int** result = allocate_matrix(a_rows, b_cols); // 행렬 A행 B열 동적 메모리 할당
+    int** result = allocate_matrix(a_rows, b_cols); // 행렬 A행 , B열 동적 메모리 할당
 
     printf("Enter elements of matrix A:\n");        //행렬 A의 원소값 입력받기 
     for (int i = 0; i < a_rows; i++) {
