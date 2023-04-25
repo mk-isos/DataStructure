@@ -48,7 +48,7 @@ int main()
 	headNode* headnode=NULL;	//headNode 포인터 변수 headNode를 선언하고 0으로 초기화
 	int count = 0; 	//연결리스트를 생성하기 전에 다른 명령을 실행하지 못하도록 막는 변수 count 선언
 
-	printf("[----- [Kim Moon Ki] [2021041023] -----]\n");
+	printf("[----- [Kim Moon K] [2021041023] -----]\n");
 	// q or Q가 입력되기전까지 실행하는 무한 루프문
 	do{
 		//메뉴 출력
